@@ -1,0 +1,23 @@
+{
+  "name": "courseforge",
+  "version": "1.0.0",
+  "description": "A Claude Code plugin for designing, structuring, and writing courses with AI.",
+  "skills": [
+    { "name": "courseforge:help",                  "file": "skills/help.md" },
+    { "name": "courseforge:start",                 "file": "skills/start.md" },
+    { "name": "courseforge:status",                "file": "skills/status.md" },
+    { "name": "courseforge:brainstorm",            "file": "skills/brainstorm.md" },
+    { "name": "courseforge:setup",                 "file": "skills/setup.md" },
+    { "name": "courseforge:define-course",         "file": "skills/define-course.md" },
+    { "name": "courseforge:define-scope",          "file": "skills/define-scope.md" },
+    { "name": "courseforge:define-modules",        "file": "skills/define-modules.md" },
+    { "name": "courseforge:define-lesson-structure", "file": "skills/define-lesson-structure.md" },
+    { "name": "courseforge:define-branding",       "file": "skills/define-branding.md" },
+    { "name": "courseforge:create-templates",      "file": "skills/create-templates.md" },
+    { "name": "courseforge:write-lesson",          "file": "skills/write-lesson.md" },
+    { "name": "courseforge:build-slides",          "file": "skills/build-slides.md" },
+    { "name": "courseforge:write-teacher-guide",   "file": "skills/write-teacher-guide.md" },
+    { "name": "courseforge:review-course",         "file": "skills/review-course.md" },
+    { "name": "courseforge:refine",                "file": "skills/refine.md" }
+  ]
+}
