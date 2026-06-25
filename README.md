@@ -6,18 +6,25 @@ CourseForge guides you from a blank page to a fully produced course — audience
 
 ## Requirements
 
-- [Claude Code](https://claude.ai/code) installed and available in your terminal
+- [Claude Code](https://claude.ai/code) v2.x or later
 
 ## Installation
 
-```bash
-git clone https://github.com/Erick307/CourseForge.git
-cd courseforge
-chmod +x install.sh
-./install.sh
+Inside any Claude Code session, run:
+
+```
+/plugin marketplace add Erick307/CourseForge
+/plugin install courseforge@courseforge
 ```
 
-The installer copies the plugin to `~/.claude/plugins/courseforge/` and registers the skills in your global `~/.claude/CLAUDE.md`. After that, the `/courseforge:*` commands are available in any Claude Code session, in any directory.
+The `/courseforge:*` commands are then available in any Claude Code session, in any directory.
+
+## Updating
+
+```
+/plugin marketplace update courseforge
+/plugin update courseforge@courseforge
+```
 
 ## Usage
 
@@ -79,8 +86,6 @@ For a full overview of the plugin and all available skills:
 
 ## Uninstalling
 
-```bash
-rm -rf ~/.claude/plugins/courseforge
 ```
-
-Then open `~/.claude/CLAUDE.md` and remove the `## CourseForge Plugin` section.
+/plugin uninstall courseforge@courseforge
+```
