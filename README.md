@@ -11,7 +11,7 @@ CourseForge guides you from a blank page to a fully produced course — audience
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/courseforge
+git clone https://github.com/Erick307/CourseForge.git
 cd courseforge
 chmod +x install.sh
 ./install.sh
