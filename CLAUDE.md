@@ -10,11 +10,10 @@ CourseForge is a Claude Code plugin — a collection of skills and templates tha
 
 | File | Purpose |
 |---|---|
-| `CLAUDE.md` | Project instructions and file index for Claude Code |
-| `FinalStructure.md` | Canonical folder and file structure for any course produced with CourseForge |
-| `Workflow.md` | 3-phase course creation process: Structure → Design → Production |
-| `framework.md` | Processes and working structure to support the creation of a course |
-| `UseCases.md` | Use cases that define what CourseForge needs to support at the end |
+| `CLAUDE.md` | Plugin descriptor and skill index for Claude Code |
+| `plugin.json` | Plugin manifest — name, version, and skill list |
+| `install.sh` | Installation script — registers the plugin globally |
+| `README.md` | User-facing documentation and installation guide |
 | `skills/` | One `.md` file per skill — the executable units of the plugin |
 
 ## Skills
