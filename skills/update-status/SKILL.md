@@ -1,7 +1,5 @@
 ---
-name: courseforge:update-status
 description: Internal skill. Reference for how to update draft/progress.md correctly. Not invoked by the user directly.
-type: internal
 ---
 
 # courseforge:update-status

@@ -1,5 +1,4 @@
 ---
-name: courseforge:define-lesson-structure
 description: Defines the internal anatomy of a lesson — the sequence of sections every lesson will follow. The result becomes the standard template for all lessons.
 ---
 

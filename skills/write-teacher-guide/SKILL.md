@@ -1,5 +1,4 @@
 ---
-name: courseforge:write-teacher-guide
 description: Creates the instructor-facing notes for a lesson — facilitation tips, common mistakes, differentiation guidance, and Q&A prep.
 ---
 

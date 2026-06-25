@@ -1,5 +1,4 @@
 ---
-name: courseforge:setup
 description: Creates the working environment for a new course. Use when starting a brand-new course from scratch.
 ---
 

@@ -1,5 +1,4 @@
 ---
-name: courseforge:write-lesson
 description: Writes the full content document for a lesson following the content template. Use during the Production phase for each lesson in order.
 ---
 

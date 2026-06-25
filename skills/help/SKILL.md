@@ -1,5 +1,4 @@
 ---
-name: courseforge:help
 description: Explains what CourseForge is and how to use it. Use when the user asks what CourseForge is or how to get started.
 ---
 

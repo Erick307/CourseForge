@@ -1,5 +1,4 @@
 ---
-name: courseforge:define-branding
 description: Establishes the visual identity of the course — colors, fonts, and logos. Produces a branding reference used by all subsequent design steps.
 ---
 

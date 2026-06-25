@@ -1,0 +1,21 @@
+{
+  "name": "courseforge",
+  "owner": {
+    "name": "Erick Silva",
+    "email": "ericksilva1988@gmail.com"
+  },
+  "description": "CourseForge — a Claude Code plugin for designing, structuring, and writing courses with AI.",
+  "plugins": [
+    {
+      "name": "courseforge",
+      "source": "./",
+      "description": "A Claude Code plugin for designing, structuring, and writing courses with AI.",
+      "author": {
+        "name": "Erick Silva"
+      },
+      "keywords": ["course", "education", "teaching", "writing", "curriculum"],
+      "category": "productivity",
+      "license": "MIT"
+    }
+  ]
+}

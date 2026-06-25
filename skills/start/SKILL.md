@@ -1,5 +1,4 @@
 ---
-name: courseforge:start
 description: The session coordinator. Reads current progress and guides the user to the next step. Always start a CourseForge session with this skill.
 ---
 

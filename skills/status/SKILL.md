@@ -1,5 +1,4 @@
 ---
-name: courseforge:status
 description: Shows the current state of the course in progress. Use when the user wants to see what's done and what's next.
 ---
 

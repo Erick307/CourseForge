@@ -1,5 +1,4 @@
 ---
-name: courseforge:review-course
 description: Bird's-eye review of the full course for alignment with goals, audience fit, scope compliance, consistency, and completeness.
 ---
 

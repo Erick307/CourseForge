@@ -1,5 +1,4 @@
 ---
-name: courseforge:build-slides
 description: Turns a lesson's content document into a slide-by-slide presentation outline following the slide template.
 ---
 

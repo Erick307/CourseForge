@@ -1,5 +1,4 @@
 ---
-name: courseforge:brainstorm
 description: Captures ideas without interrupting the current step. Use at any point in the process to save ideas to draft/ideas.md.
 ---
 

@@ -1,5 +1,4 @@
 ---
-name: courseforge:define-modules
 description: Breaks the course into an ordered list of modules. Proposes a first draft based on the course definition and iterates with the user.
 ---
 

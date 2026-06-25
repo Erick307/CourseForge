@@ -1,5 +1,4 @@
 ---
-name: courseforge:define-scope
 description: Sets the course boundaries — what's in scope, out of scope, and what learners must already know before starting.
 ---
 

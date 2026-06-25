@@ -1,5 +1,4 @@
 ---
-name: courseforge:define-course
 description: Defines the three core constraints of the course — audience, goal, and length. First step in the Structure phase.
 ---
 

@@ -1,5 +1,4 @@
 ---
-name: courseforge:refine
 description: Improves or rewrites an existing lesson or module. Can be invoked directly by the user or called from courseforge:review-course to act on a specific finding.
 ---
 

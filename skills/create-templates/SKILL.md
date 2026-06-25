@@ -1,5 +1,4 @@
 ---
-name: courseforge:create-templates
 description: Creates the content template and slide template that all production work will follow. Run after branding is defined.
 ---
 
