@@ -200,7 +200,7 @@ const H = 7.5;              // slide height in inches
 | `title` | White + primary color left bar | Logo top-left |
 | `module-header` | `module-bg.png` image | Logo top-left with white pill behind it |
 | `content` | White | Logo top-left, bullets with secondary color markers |
-| `code` | White + dark `#1E1E2E` code box | macOS dots decoration, green mono text |
+| `code` | White + dark `#1E1E2E` code box | Green mono text, no decoration dots |
 | `two-col` | White + dark `#1E1E2E` code boxes | Red mono left, green mono right |
 | `demo-step` | Dark `#1A1A1A` | Logo top-left with white pill |
 | `takeaway` | White + secondary color top bar | Centered large text |
