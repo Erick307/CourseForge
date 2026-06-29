@@ -86,6 +86,8 @@ Once confirmed:
 ### Step 7 — Hand off
 
 Ask the user what they want to do next:
+- Slides for this lesson (if not done) → `courseforge:build-slides`
 - Content for the next lesson → `courseforge:write-lesson`
 - Review the full course → `courseforge:review-course`
-- Something else → route accordingly
+- Let the coordinator decide → `courseforge:start`
+- Something else → ask for clarification, then route accordingly

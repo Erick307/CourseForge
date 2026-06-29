@@ -2,11 +2,14 @@
 
 A Claude Code plugin for designing, structuring, and writing courses with AI.
 
-CourseForge guides you from a blank page to a fully produced course — audience definition, module structure, lesson content, slides, and instructor guides — through a series of focused, step-by-step skills.
+CourseForge guides you from a blank page to a fully produced course — audience definition, module structure, lesson content, slides, instructor guides, and a ready-to-present `.pptx` — through a series of focused, step-by-step skills.
+
+Works in English by default. Other languages supported — CourseForge will ask on first run.
 
 ## Requirements
 
 - [Claude Code](https://claude.ai/code) v2.x or later
+- Node.js 18+ — only needed if you use the recommended slide export. CourseForge will detect it automatically and guide you through installation if it's missing.
 
 ## Installation
 
@@ -83,6 +86,11 @@ For a full overview of the plugin and all available skills:
 |---|---|
 | `courseforge:review-course` | Full course consistency check |
 | `courseforge:refine` | Improve or rewrite a lesson or module |
+
+### Export
+| Skill | What it does |
+|---|---|
+| `courseforge:export-slides` | Export all slides to `.pptx`, Gamma, or Markdown. Guides you through setup step by step — including Node.js installation if needed. |
 
 ## Uninstalling
 

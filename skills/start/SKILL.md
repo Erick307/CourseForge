@@ -25,6 +25,7 @@ Read it fully. Extract:
 - The current phase (Structure / Design / Production)
 - Which steps are complete, in progress, or not started
 - Any open notes or blockers
+- The `Language` field — respond in that language for the entire session. If the field is missing, default to English.
 
 ---
 

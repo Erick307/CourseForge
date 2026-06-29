@@ -65,12 +65,12 @@ Once confirmed:
 1. Save the file:
    - Path: `course/Modules/Module_<NN>_<ModuleName>/Lessons/Lesson_<NN>_<LessonName>/Presentation.md`
 
-2. Format:
+2. **Strict format — follow exactly.** The `export-slides` skill parses this file programmatically. Any deviation from this format will break export.
 
 ```markdown
 # [Lesson Title] — Presentation
 
-## Slide 01 — [Slide Type]: [Slide Title]
+## Slide 01 — [slide-type]: [Slide Title]
 **Content:**
 - [bullet]
 - [bullet]
@@ -81,8 +81,17 @@ Once confirmed:
 
 ---
 
-## Slide 02 — ...
+## Slide 02 — [slide-type]: [Slide Title]
+...
 ```
+
+**Rules:**
+- Each slide starts with `## Slide NN — [slide-type]: [Title]` (zero-padded number, then exact type slug, then colon, then title)
+- Valid slide types: `title`, `module-header`, `content`, `code`, `two-col`, `demo-step`, `takeaway`, `closing`
+- `**Content:**` section is always present, even if empty (write `none` if no bullets)
+- `**Talking points:**` and `**Timing:**` are always present
+- Slides are separated by `---`
+- No extra blank lines before `## Slide`
 
 3. Update `draft/progress.md`:
    - Mark the lesson's Slides step as complete: `- [x] Lesson NN — Slides`
@@ -94,4 +103,6 @@ Once confirmed:
 Ask the user what they want to do next:
 - Teacher guide for this lesson → `courseforge:write-teacher-guide`
 - Content for the next lesson → `courseforge:write-lesson`
-- Something else → route accordingly
+- Review the full course → `courseforge:review-course`
+- Let the coordinator decide → `courseforge:start`
+- Something else → ask for clarification, then route accordingly
