@@ -48,6 +48,9 @@ All other skills are available if you want to jump to something specific, but th
 - `courseforge:review-course` — full course consistency check
 - `courseforge:refine` — improve or rewrite a lesson or module
 
+**Export**
+- `courseforge:export-slides` — export all slides to .pptx (free, recommended), Gamma, or Markdown. Guides you step by step through whichever path fits your setup.
+
 **Utilities**
 - `courseforge:status` — see what has been done and what comes next
 - `courseforge:brainstorm` — capture ideas at any point without interrupting the flow

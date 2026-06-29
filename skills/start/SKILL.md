@@ -16,7 +16,23 @@ Check whether `draft/progress.md` exists in the working directory.
 
 **If `draft/progress.md` does not exist:**
 
-There is no course in progress. Greet the user briefly and explain that the first step is to set up the working environment. Then invoke `courseforge:setup`.
+There is no course in progress. Greet the user with a short welcome message that explains what CourseForge does and how the process works:
+
+```
+Welcome to CourseForge — an AI-guided plugin for creating courses from scratch.
+
+Here's how it works:
+  1. You define the course structure (audience, modules, lesson anatomy)
+  2. You establish the visual design (branding, templates)
+  3. You write the content lesson by lesson (content, slides, instructor notes)
+  4. You review and export — a ready-to-present .pptx in one command
+
+Everything is guided step by step. You don't need to remember what comes next.
+
+Let's start by setting up your course folder.
+```
+
+Then invoke `courseforge:setup`.
 
 **If `draft/progress.md` exists:**
 
@@ -25,6 +41,7 @@ Read it fully. Extract:
 - The current phase (Structure / Design / Production)
 - Which steps are complete, in progress, or not started
 - Any open notes or blockers
+- The `Language` field — respond in that language for the entire session. If the field is missing, default to English.
 
 ---
 
