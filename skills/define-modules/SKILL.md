@@ -68,7 +68,19 @@ After each change, show the updated full list so the user can see the structure 
 
 ---
 
-### Step 4 — Save the draft and update progress
+### Step 4 — Define lessons per module
+
+Before saving, ask the user to confirm how many lessons each module will have:
+
+> "How many lessons are you planning per module? You can give one number for all modules, or different counts per module. This is used to build the full production checklist — you can always adjust later."
+
+If the user doesn't know yet, suggest: 3–5 lessons per module is a good default for a standard course. They can always add or remove lessons during production.
+
+Once confirmed, record the lesson count per module — you'll use this in Step 5 to populate the production checklist.
+
+---
+
+### Step 5 — Save the draft and update progress
 
 Once the user confirms:
 
@@ -79,11 +91,11 @@ Once the user confirms:
 
 ## Module List
 
-| # | Name | Description |
-|---|---|---|
-| 01 | <name> | <one-line description> |
-| 02 | <name> | <one-line description> |
-| ... | | |
+| # | Name | Lessons | Description |
+|---|---|---|---|
+| 01 | <name> | <N> | <one-line description> |
+| 02 | <name> | <N> | <one-line description> |
+| ... | | | |
 ```
 
 2. Update `draft/progress.md`:
@@ -92,7 +104,7 @@ Once the user confirms:
 
 ---
 
-### Step 5 — Hand off
+### Step 6 — Hand off
 
 Tell the user the module structure is set. Then tell them the next step is to define the internal anatomy of each lesson and ask if they want to continue.
 

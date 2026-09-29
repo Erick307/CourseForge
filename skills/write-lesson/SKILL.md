@@ -91,4 +91,7 @@ Tell the user the content document is saved. Ask if they want to continue with t
 Route based on their answer:
 - Slides for this lesson → `courseforge:build-slides`
 - Teacher guide for this lesson → `courseforge:write-teacher-guide`
-- Next lesson → `courseforge:write-lesson`
+- Next lesson's content → `courseforge:write-lesson`
+- Review the full course → `courseforge:review-course`
+- Let the coordinator decide → `courseforge:start`
+- Something else → ask for clarification, then route accordingly

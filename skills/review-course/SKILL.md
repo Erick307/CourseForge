@@ -83,3 +83,8 @@ Once the user has addressed the issues they want to fix (or chosen to skip them)
 - How many findings were resolved
 - What remains open (if anything)
 - Whether the course is ready for final delivery or still needs work
+
+Then ask what they want to do next:
+- Export the slides now → `courseforge:export-slides`
+- Keep refining → `courseforge:refine`
+- Let the coordinator guide → `courseforge:start`

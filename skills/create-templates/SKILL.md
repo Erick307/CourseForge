@@ -99,7 +99,7 @@ Show the slide template to the user. Ask if it covers what they need or if any s
 
 Now that modules and templates are defined, expand the Production section in `draft/progress.md` to list every lesson that needs to be produced.
 
-For each module and each lesson within it, add three checkboxes:
+Read `draft/define-modules.md` to get the module list and lesson count per module (recorded in Step 4 of define-modules). For each module and each of its lessons, add three checkboxes:
 
 ```markdown
 ### Production
@@ -109,10 +109,14 @@ For each module and each lesson within it, add three checkboxes:
 - [ ] Lesson 01 — Slides
 - [ ] Lesson 01 — Teacher Guide
 - [ ] Lesson 02 — Content
+- [ ] Lesson 02 — Slides
+- [ ] Lesson 02 — Teacher Guide
 ...
 ```
 
-Use the module list from `draft/define-modules.md`. If lessons within modules haven't been defined yet, add a placeholder per module and note that lessons will be detailed in the writing step.
+Use the lesson names from define-modules if available. If lesson names weren't defined yet, use numbered placeholders (`Lesson 01`, `Lesson 02`, etc.) — the actual names will be determined when writing begins.
+
+This checklist is the source of truth for production. Every production skill reads it to find the next item to work on.
 
 ---
 

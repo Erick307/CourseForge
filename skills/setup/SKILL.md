@@ -10,7 +10,16 @@ Creates the working environment for a new course. Sets up the folder structure a
 
 ## What to do
 
-### Step 1 — Ask for the course name
+### Step 1 — Detect language and ask for course name
+
+**Language detection:**
+Look at the language the user wrote in when they invoked this skill. If they wrote in English, proceed in English. If they wrote in another language, ask:
+
+> "CourseForge works in English by default. Would you like to continue in English, or in [detected language]?"
+
+Default to English if unsure. Record the chosen language in `draft/progress.md` under a `Language` field. All subsequent skills must respond in that language for the rest of the course.
+
+---
 
 Ask the user for a working title for the course. Explain that it doesn't need to be final — it's just used to name the working folder.
 
@@ -45,6 +54,7 @@ Write `progress.md` with the following structure. Fill in the course name; leave
 ## Course
 **Name:** <course name>
 **Description:** Not yet defined
+**Language:** English
 
 ## Phase
 Structure
